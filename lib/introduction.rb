@@ -1,2 +1,4 @@
-def {introduction("Josh")}.to output("Hi, my name is Josh.\n")
+def introduction("Josh")
+  puts "Hi, my name is # 
+  {Josh}."
 end
